@@ -26,6 +26,7 @@ function Checkbox(props) {
         )
     }
     }
+    
     return (
         <>
          <input type="checkbox" name='all'onChange={changeInput} checked={data.filter(item => item.isChk !== true).length < 1} />
